@@ -1,20 +1,20 @@
-# 🌿 Organiq Lifee
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern, responsive website for showcasing natural handmade soaps.
+# Run and deploy your AI Studio app
 
-## 🚀 Live Website
-https://organiqlifee.com
+This contains everything you need to run your app locally.
 
-## 🧰 Tech Used
-- HTML
-- CSS
-- JavaScript
-- Hosted on Netlify
+View your app in AI Studio: https://ai.studio/apps/dcf9e338-37ea-4236-ae95-cf235bb47eec
 
-## ✨ Features
-- Responsive design (mobile friendly)
-- Fast loading website
-- Clean and minimal UI
-- Product showcase section
+## Run Locally
 
-## 📁 Project Structure
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
